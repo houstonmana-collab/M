@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <category label="حجب الإعلانات">
+        <setting id="enable_adblock" type="bool" label="تفعيل حجب الإعلانات" default="true"/>
+        <setting id="block_popups" type="bool" label="حجب النوافذ المنبثقة" default="true"/>
+        <setting id="block_redirects" type="bool" label="حجب التحويلات الإعلانية" default="true"/>
+    </category>
+    
+    <category label="الجودة">
+        <setting id="min_quality" type="select" label="الحد الأدنى للجودة" default="720p">
+            <option value="4k">4K UHD</option>
+            <option value="1080p">1080p Full HD</option>
+            <option value="720p">720p HD</option>
+        </setting>
+        <setting id="auto_best_quality" type="bool" label="اختيار أعلى جودة تلقائياً" default="true"/>
+    </category>
+    
+    <category label="المواقع">
+        <setting id="enable_wecima" type="bool" label="وي سيما" default="true"/>
+        <setting id="enable_akwam" type="bool" label="أكوام" default="true"/>
+        <setting id="enable_mycima" type="bool" label="ماي سيما" default="true"/>
+        <setting id="enable_arabseed" type="bool" label="عرب سيد" default="true"/>
+        <setting id="enable_shahed" type="bool" label="شاهد" default="true"/>
+        <setting id="enable_almstba" type="bool" label="المصطبة" default="true"/>
+        <setting id="enable_egybest" type="bool" label="ايجي بست" default="true"/>
+        <setting id="enable_waqt" type="bool" label="وقت الافلام" default="true"/>
+        <setting id="enable_cimalight" type="bool" label="سيما لايت" default="true"/>
+        <setting id="enable_cima4ever" type="bool" label="سيما فور ايفر" default="true"/>
+        <setting id="enable_egyshare" type="bool" label="ايجي شير" default="true"/>
+        <setting id="enable_cimaclub" type="bool" label="سيما كلوب" default="true"/>
+        <setting id="enable_arabseed4k" type="bool" label="عرب سيد 4k" default="true"/>
+        <setting id="enable_fourkarab" type="bool" label="4k عرب" default="true"/>
+        <setting id="enable_bluray4k" type="bool" label="بلو راي 4k" default="true"/>
+    </category>
+</settings>
